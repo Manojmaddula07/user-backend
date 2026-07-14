@@ -12,7 +12,7 @@ app.use(express.json());
 
 // MongoDB Connection (without .env)
 mongoose
-  .connect("mongodb://127.0.0.1:27017/WaterTracker")
+  .connect("mongodb+srv://Manoj:manoj07>@cluster0.j3rytew.mongodb.net/waterintake")
   .then(() => {
     console.log("Database Connected Successfully");
   })
